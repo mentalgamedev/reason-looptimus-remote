@@ -1,6 +1,6 @@
 # Looptimus Remote for Reason
 
-An unofficial, AI-assisted Reason Remote codec for the **Loop Community Looptimus** foot controller.
+An unofficial Reason Remote codec for the **Loop Community Looptimus** foot controller.
 
 It fixes a problem where a Looptimus switch assigned through **Reason Remote Override** can require **two physical presses** for a control that should trigger with one press.
 
@@ -84,16 +84,6 @@ The codec was developed and tested with:
 
 It may also help with other Reason devices or Rack Extensions where short Looptimus MIDI notes behave incorrectly through Remote Override.
 
-## AI disclosure
-
-This project is intentionally transparent about its origin.
-
-The codec and most of this documentation were created with substantial assistance from **OpenAI's ChatGPT**. The repository owner described the Looptimus/Reason problem, tested multiple codec iterations on the actual hardware and in Reason, reported the observed behavior, and verified the final working solution.
-
-In other words: this is an AI-assisted little utility that exists because a real hardware/software problem was diagnosed experimentally together.
-
-It is being published simply to help other Looptimus + Reason users who may run into the same issue.
-
 If you find a bug, please report exactly what Reason version, Looptimus configuration and mapped control you are using.
 
 ## Disclaimer
@@ -103,6 +93,12 @@ This is an **unofficial community project**.
 It is not affiliated with, endorsed by, or supported by **Loop Community**, **Reason Studios**, or the developer of **Warp Looper**.
 
 Use it at your own risk. Keep a backup of your Reason Remote configuration if that matters to your setup.
+
+## Development note
+
+This codec and its documentation were developed with substantial assistance from **OpenAI's ChatGPT**. The repository owner described the Looptimus/Reason problem, tested multiple iterations on the actual hardware and in Reason, reported the observed behavior, and verified the final working solution.
+
+AI is not part of the codec itself and is not used when it runs. This note is included simply to be transparent about how the project was created.
 
 ## License
 
