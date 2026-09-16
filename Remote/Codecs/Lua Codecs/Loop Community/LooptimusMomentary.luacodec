@@ -1,0 +1,16 @@
+version={1,0,0}
+
+function remote_supported_control_surfaces()
+    local surfaces = {
+        {
+            manufacturer="Loop Community",
+            model="Looptimus Momentary",
+            source="LooptimusMomentary.lua",
+            in_ports={{description="Looptimus MIDI In"}},
+            out_ports={{description="MIDI Out", optional=true}},
+            has_keyboard=false,
+            setup_info_text="Select the Looptimus MIDI input. MIDI Out is optional. Looptimus notes are exposed as binary VALUE controls (127 on Note On, 0 on Note Off) so Reason passes both press and release states."
+        },
+    }
+    return surfaces
+end
